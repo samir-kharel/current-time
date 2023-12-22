@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Condensed&family=Roboto+Mono:wght@400;600&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap");
+
+* {
+  font-family: "Montserrat", "Roboto Condensed";
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vb;
+  margin: auto;
+  padding: 100px;
+}
+
+.card {
+  background-color: lightgray;
+  border: 3px solid rgb(54, 54, 54);
+  border-radius: 10px;
+}
+
+body {
+  background-color: rgb(148, 148, 148);
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  margin: auto;
+}
+
+.welcome-msg,
+.current-time,
+.current-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
